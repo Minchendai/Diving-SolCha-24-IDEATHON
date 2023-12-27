@@ -151,12 +151,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 64646644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &64646646
 MeshRenderer:
@@ -178,7 +178,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -207,7 +207,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64646644}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &64646648
 Transform:
   m_ObjectHideFlags: 0
@@ -336,12 +336,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 498753835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &498753837
 MeshRenderer:
@@ -363,7 +363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -392,7 +392,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498753835}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &498753839
 Transform:
   m_ObjectHideFlags: 0
@@ -615,12 +615,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 816014338}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &816014340
 MeshRenderer:
@@ -642,7 +642,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -671,7 +671,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816014338}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &816014342
 Transform:
   m_ObjectHideFlags: 0
@@ -807,12 +807,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 995685673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &995685675
 MeshRenderer:
@@ -834,7 +834,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -863,7 +863,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995685673}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &995685677
 Transform:
   m_ObjectHideFlags: 0
@@ -914,12 +914,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1198993261}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &1198993263
 MeshRenderer:
@@ -941,7 +941,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -970,7 +970,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198993261}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &1198993265
 Transform:
   m_ObjectHideFlags: 0
@@ -1110,12 +1110,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1475595708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &1475595710
 MeshRenderer:
@@ -1137,7 +1137,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1166,7 +1166,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475595708}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &1475595712
 Transform:
   m_ObjectHideFlags: 0
@@ -1266,12 +1266,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1634296139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &1634296141
 MeshRenderer:
@@ -1293,7 +1293,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1322,7 +1322,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634296139}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &1634296143
 Transform:
   m_ObjectHideFlags: 0
@@ -1366,12 +1366,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1645611418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6a6df342b52d24092cf6bbb590c535, type: 3}
+  m_Script: {fileID: 11500000, guid: e4bb695dab84a3645bcd68c36d1cc782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveHeight: 3
+  waveHeight: 0.5
   waveFrequency: 0.5
-  waveLength: 0.5
+  waveLength: 0.75
   waveOriginPosition: {x: 0, y: 0, z: 0}
 --- !u!23 &1645611420
 MeshRenderer:
@@ -1393,7 +1393,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8538bd626cb3e80478f62e319f75e337, type: 2}
+  - {fileID: 2100000, guid: 093b29dbf98f59f4280543a65cceccec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1422,7 +1422,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645611418}
-  m_Mesh: {fileID: 4300000, guid: ebfb4988eb16add4784122504f75fe2f, type: 2}
+  m_Mesh: {fileID: 4300000, guid: cad608362ed66c24a926bf376a9d09f8, type: 2}
 --- !u!4 &1645611422
 Transform:
   m_ObjectHideFlags: 0
