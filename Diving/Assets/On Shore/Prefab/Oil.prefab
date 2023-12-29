@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isShrinking: 1
   spreadSpeed: 0.0001
-  shrinkSpeed: 0.0001
+  shrinkSpeed: 0.0005
   largestScale: 2
   smallestScale: 0.3
 --- !u!1 &2051679727314997197

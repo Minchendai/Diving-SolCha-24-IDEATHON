@@ -6,7 +6,7 @@ public class OilSpreading : MonoBehaviour
 {
     public bool isShrinking = false;
     public float spreadSpeed = 0.0001f;
-    public float shrinkSpeed = 0.0001f;
+    public float shrinkSpeed = 0.0005f;
     public float largestScale = 2f;
     public float smallestScale = 0.3f;
 
