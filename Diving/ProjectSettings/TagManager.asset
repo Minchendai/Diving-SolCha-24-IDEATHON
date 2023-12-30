@@ -12,10 +12,10 @@ TagManager:
   - Water
   - UI
   - ignore
-  - 
-  - 
-  - 
-  - 
+  - Obstacle
+  - Oil
+  - Barrier
+  - Start&End
   - 
   - 
   - 
