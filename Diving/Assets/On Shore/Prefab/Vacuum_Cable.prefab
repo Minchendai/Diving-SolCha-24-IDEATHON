@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7718693827736463622}
   m_Layer: 0
   m_Name: Vacuum_Cable
-  m_TagString: Untagged
+  m_TagString: Vacuum
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,6 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e71a73f3ec405fb47b2e376b7ebc3d35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  magnitude: 5
+  speed: 0.01
 --- !u!1 &5847987953215641432
 GameObject:
   m_ObjectHideFlags: 0

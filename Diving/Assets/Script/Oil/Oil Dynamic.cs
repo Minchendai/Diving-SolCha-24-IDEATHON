@@ -13,12 +13,15 @@ public class OilSpreading : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        isShrinking = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (GameObject.FindWithTag("Vacuum")) {
+            isShrinking = true;
+        }
         if (!isShrinking && transform.localScale.x<largestScale) {
             // Oil spreading
             Vector3 scaleChange = new Vector3(spreadSpeed, spreadSpeed, spreadSpeed);
