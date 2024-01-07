@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OilSpreading : MonoBehaviour
 {
-    public bool isShrinking = false;
+    private bool isShrinking = false;
     public float spreadSpeed = 0.0001f;
     public float shrinkSpeed = 0.0005f;
     public float largestScale = 2f;
@@ -13,12 +13,15 @@ public class OilSpreading : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        isShrinking = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (GameObject.FindWithTag("Vacuum")) {
+            isShrinking = true;
+        }
         if (!isShrinking && transform.localScale.x<largestScale) {
             // Oil spreading
             Vector3 scaleChange = new Vector3(spreadSpeed, spreadSpeed, spreadSpeed);
