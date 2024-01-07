@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6287599061497021256}
   - component: {fileID: 2078468425954596241}
   - component: {fileID: 3979299536650335087}
+  - component: {fileID: 329116074136430419}
   m_Layer: 0
   m_Name: Oil
   m_TagString: Untagged
@@ -47,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spreadSpeed: 5
+  vacuumSpeed: 10
 --- !u!64 &3979299536650335087
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -69,6 +71,33 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 14b4316d265122245b35df426b6325ba, type: 3}
+--- !u!54 &329116074136430419
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000174942551915431}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2051679727314997197
 GameObject:
   m_ObjectHideFlags: 0

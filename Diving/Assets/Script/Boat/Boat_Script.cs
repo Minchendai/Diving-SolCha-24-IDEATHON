@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Boat_Script : MonoBehaviour
 {
+    public GameObject canvas;
     public CharacterController player;
     public Rigidbody body;
     public GameObject barrier_prefab;
@@ -12,6 +13,7 @@ public class Boat_Script : MonoBehaviour
     public Material line_material;
     public GameObject StartEnd;
     public Material[] materials;
+    public GameObject Step2;
     private bool canPlaceBarrier = true;
     private float distance;
     private LineRenderer line;
@@ -35,7 +37,7 @@ public class Boat_Script : MonoBehaviour
     }
     private void Update()
     {
-        if (!ends)
+        if (!ends && !canvas.activeSelf)
         {
             float move = Input.GetAxis("Vertical") * Time.deltaTime * speed;
             Quaternion deltaRotation = Quaternion.Euler(Input.GetAxis("Horizontal") * move * roatation_speed * Time.fixedDeltaTime);
@@ -72,6 +74,11 @@ public class Boat_Script : MonoBehaviour
             if (PolygonIsContainPoint(midOilPoint, vectors)) {
                 StartEnd.GetComponent<Renderer>().sharedMaterial = materials[2];
                 print("end");
+                canvas.SetActive(true);
+                Step2.SetActive(true);
+            } else
+            {
+                print("fail");
             }
         }
     }
