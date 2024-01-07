@@ -22,6 +22,10 @@ public class SandColorControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameObject.FindWithTag("Shovel")&&!isShovelling) {
+            isShovelling = true;
+            timer = 0;
+        }
         timer++;
         if (timer>speed) {
             timer = 0;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OilMotionController : MonoBehaviour
 {
-    public GameObject oilPrefab;
+    public GameObject prefab;
     public int objectNum = 4;
     public float radius = 2f;
 
@@ -14,9 +14,11 @@ public class OilMotionController : MonoBehaviour
         for (int i=0; i<objectNum; i++) {
             float angle = i * Mathf.PI * 2 / objectNum;
             Vector3 pos = transform.position;
+            pos.x += i*radius;
             float angleDegrees = -angle*Mathf.Rad2Deg;
-            Quaternion rot = Quaternion.Euler(0, angleDegrees, 0);
-            Instantiate(oilPrefab, pos, rot);
+            Vector3 rot = transform.eulerAngles;
+            rot += new Vector3(0, angleDegrees, 0);
+            Instantiate(prefab, pos, Quaternion.Euler(rot));
         }
     }
 }
