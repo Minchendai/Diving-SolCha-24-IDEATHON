@@ -6,11 +6,19 @@ public class FowardBackwardMotion : MonoBehaviour
 {
     private float pivot;
     private int left = -1;
+    public bool random = true;
     public float magnitude = 5;
     public float speed = 0.08f;
     // Start is called before the first frame update
     void Start()
     {
+        if (random) {
+            magnitude = Random.Range(3, 5);
+            speed = Random.Range(0.10f,0.18f);
+            if (magnitude>4) {
+                left = 1;
+            }
+        }
         pivot = transform.position.x;
     }
 
