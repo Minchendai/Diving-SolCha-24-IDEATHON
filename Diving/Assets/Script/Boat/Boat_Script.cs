@@ -14,6 +14,7 @@ public class Boat_Script : MonoBehaviour
     public GameObject StartEnd;
     public Material[] materials;
     public GameObject Step2;
+    public GameObject GameOver;
     private bool canPlaceBarrier = true;
     private float distance;
     private LineRenderer line;
@@ -78,7 +79,10 @@ public class Boat_Script : MonoBehaviour
                 Step2.SetActive(true);
             } else
             {
+                canvas.SetActive(true);
+                GameOver.SetActive(true);
                 print("fail");
+
             }
         }
     }
