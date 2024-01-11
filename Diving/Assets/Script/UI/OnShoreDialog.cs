@@ -37,11 +37,21 @@ public class OnShoreDialog : MonoBehaviour
                 if (index>7) {
                     sponge.SetActive(false);
                 }
+                CleanUpScene();
                 message.text = messagePool[index];
             }
             index++;
         } else {
             index = messagePool.Length;
+        }
+    }
+
+    private void CleanUpScene() {
+        while (GameObject.FindWithTag("Shovel")) {
+            GameObject.FindWithTag("Shovel").SetActive(false);
+        }
+        while (GameObject.FindWithTag("Sponge")) {
+            GameObject.FindWithTag("Sponge").SetActive(false);
         }
     }
 
