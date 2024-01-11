@@ -9,6 +9,7 @@ public class OilSpreading : MonoBehaviour
     public float shrinkSpeed = 0.0005f;
     public float largestScale = 2f;
     public float smallestScale = 0.3f;
+    public GameObject success;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,10 @@ public class OilSpreading : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.FindWithTag("Vacuum")) {
+        if (GameObject.FindWithTag("Vacuum")||GameObject.FindWithTag("Sponge")||GameObject.FindWithTag("Biodegrader")) {
             isShrinking = true;
+        } else {
+            isShrinking = false;
         }
         if (!isShrinking && transform.localScale.x<largestScale) {
             // Oil spreading
