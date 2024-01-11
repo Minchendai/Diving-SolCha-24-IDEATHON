@@ -511,7 +511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 131, y: -54}
+  m_AnchoredPosition: {x: 132, y: -54}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &169628284
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: At  Sea Oil Pollution
+  m_text: At Sea Oil Pollution
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0775a9490adb30f44ae5bf47d486c4e9, type: 2}
   m_sharedMaterial: {fileID: -2890962005410887275, guid: 0775a9490adb30f44ae5bf47d486c4e9, type: 2}
@@ -1468,8 +1468,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2377,9 +2377,11 @@ MonoBehaviour:
   canvas: {fileID: 2114204012}
   vacuum: {fileID: 2093281677}
   text:
-  - 4
-  - 5
-  - 6
+  - Well done,  now the spreading oil is under control. Let's try to clean up the
+    oil.
+  - We generally use a vacuum to remove the oil in the sea as oil always floats on
+    water.
+  - Use WASD to control the vacuum and remove the oil.
   textField: {fileID: 875530795}
 --- !u!1001 &848793926
 PrefabInstance:
@@ -4164,9 +4166,13 @@ MonoBehaviour:
   ths: {fileID: 1882227541}
   canvas: {fileID: 2114204012}
   text:
-  - 1
-  - 2
-  - 3
+  - Oops, A boat is sinking in the sea.
+  - Oil is spreading every where, if we let the oil keeps spreading, millions of
+    beings in the sea will be affected and destroys the marine ecosystem.
+  - 'Now you are driving the operation boat to place the barriers around the sinking
+    boat and the oil to keep the oil from spreading. '
+  - Be careful, you cannot hit the sinking boat as well as drive into the oil.
+  - Use WASD  to control the boat.
   textField: {fileID: 439409377}
 --- !u!1 &1469408684 stripped
 GameObject:
