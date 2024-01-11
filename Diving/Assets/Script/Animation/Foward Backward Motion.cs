@@ -25,11 +25,12 @@ public class FowardBackwardMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < pivot-magnitude || transform.position.x > pivot+magnitude) {
-            // Change direction
-            left *= -1;
+        if (!GameObject.Find("Stop")) {
+            if (transform.position.x < pivot-magnitude || transform.position.x > pivot+magnitude) {
+                // Change direction
+                left *= -1;
+            }
+            transform.position += new Vector3(left*speed,0,0);
         }
-        transform.position += new Vector3(left*speed,0,0);
-        
     }
 }

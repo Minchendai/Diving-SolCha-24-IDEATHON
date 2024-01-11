@@ -20,18 +20,20 @@ public class OilColorChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.FindWithTag("Biodegrader")) {
-            isFading = true;
-        }
-        if (isFading&&index<3) {
-            timer++;
-            if (timer>speed) {
-                timer = 0;
-                index++;
-                if (index > 3) {
-                    index = 3;
+        if (!GameObject.Find("Stop")) {
+            if (GameObject.FindWithTag("Biodegrader")) {
+                isFading = true;
+            }
+            if (isFading&&index<3) {
+                timer++;
+                if (timer>speed) {
+                    timer = 0;
+                    index++;
+                    if (index > 3) {
+                        index = 3;
+                    }
+                    oil.GetComponent<Renderer>().material = materials[index];
                 }
-                oil.GetComponent<Renderer>().material = materials[index];
             }
         }
     }
