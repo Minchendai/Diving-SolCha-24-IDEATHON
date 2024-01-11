@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Oil
+  m_Name: Oil 3
   m_Shader: {fileID: 4800000, guid: 340559e6992c41a45b0fabd5f4ac13b1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -53,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DiffTex:
-        m_Texture: {fileID: 2800000, guid: f19cd45f4298bf1418c07da7f3005738, type: 3}
+        m_Texture: {fileID: 2800000, guid: a2356ab4a4fb5f74c83096735dc7dc9d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -63,7 +63,7 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: a2356ab4a4fb5f74c83096735dc7dc9d, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0.63045883, y: 0.63045883}
+        m_Offset: {x: 1.3574281, y: 1.3574281}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -80,9 +80,9 @@ Material:
     m_Floats:
     - DstMode: 3
     - SrcMode: 4
-    - _Attenuation: 0.26
+    - _Attenuation: 1
     - _BLENDING: 1
-    - _Brightness: 16
+    - _Brightness: 100
     - _BumpScale: 1
     - _COMMTRANSP: 1
     - _Cutoff: 0.5
@@ -106,7 +106,7 @@ Material:
     - _SECTIONLIGHTING: 1
     - _SECTIONTEXTURES: 1
     - _SECTIONWAVES: 1
-    - _Shininess: 0.31
+    - _Shininess: 1.69
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 0.1
@@ -115,6 +115,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.21226418, g: 0.087402895, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
