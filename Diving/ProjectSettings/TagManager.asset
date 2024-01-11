@@ -7,6 +7,9 @@ TagManager:
   - Vacuum
   - Sand
   - Shovel
+  - Sponge
+  - Biodegrader
+  - Oil
   layers:
   - Default
   - TransparentFX
