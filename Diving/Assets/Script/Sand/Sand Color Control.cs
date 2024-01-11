@@ -23,27 +23,29 @@ public class SandColorControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.FindWithTag("Shovel")) {
-            // Color gets lighter when shoveling
-            changeColor = -1;
-        } else if (GameObject.FindWithTag("Vacuum")||GameObject.FindWithTag("Sponge")||GameObject.FindWithTag("Biodegrader")) {
-            changeColor = 0;
-        }
-        timer++;
-        if (timer>speed) {
-            timer = 0;
-            index+=changeColor;
-            if (index<0) {
-                index = 0;
-            } else if (index > 3) {
-                index = 3;
+        if (!GameObject.Find("Stop")) {
+            if (GameObject.FindWithTag("Shovel")) {
+                // Color gets lighter when shoveling
+                changeColor = -1;
+            } else if (GameObject.FindWithTag("Vacuum")||GameObject.FindWithTag("Sponge")||GameObject.FindWithTag("Biodegrader")) {
+                changeColor = 0;
             }
-            floor.GetComponent<Renderer>().material = materials[index];
-        }
-        if (index==0) {
-            normalFloor.SetActive(true);
-        } else {
-            normalFloor.SetActive(false);
+            timer++;
+            if (timer>speed) {
+                timer = 0;
+                index+=changeColor;
+                if (index<0) {
+                    index = 0;
+                } else if (index > 3) {
+                    index = 3;
+                }
+                floor.GetComponent<Renderer>().material = materials[index];
+            }
+            if (index==0) {
+                normalFloor.SetActive(true);
+            } else {
+                normalFloor.SetActive(false);
+            }
         }
     }
 
