@@ -84,6 +84,12 @@ public class Boat_Script : MonoBehaviour
                 print("fail");
 
             }
+        } else if (!ends && collider.gameObject.layer == 8 && isPlaying)
+        {
+            ends = true;
+            canvas.SetActive(true);
+            GameOver.SetActive(true);
+            print("fail");
         }
     }
 

@@ -6,7 +6,7 @@ public class Quit : MonoBehaviour
 {
     public void OnPress()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
     // Start is called before the first frame update
