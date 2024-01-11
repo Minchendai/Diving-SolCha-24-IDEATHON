@@ -19,19 +19,25 @@ public class OnShoreDialog : MonoBehaviour
     public void ChangeDialog() {
         if (index<messagePool.Length) {
             message.text = messagePool[index];
-            if (messagePool[index].Contains("Loading")) {
-                dialogContainer.SetActive(false);
-                stop.SetActive(false);
-                message.text = messagePool[index+1];
-            } else if (messagePool[index].Contains("vacuum")) {
+            if (messagePool[index].Contains("vacuum")) {
                 toolkit.SetActive(true);
                 vacuum.SetActive(true);
             } else if (messagePool[index].Contains("sponge")) {
                 sponge.SetActive(true);
             } else if (messagePool[index].Contains("shovel")) {
                 shovel.SetActive(true);
-            } else if (messagePool[index].Contains("biodegrad")) {
+            } else if (messagePool[index].Contains("biodegra")) {
                 biodegrader.SetActive(true);
+            } else if (messagePool[index].Contains("Loading")) {
+                dialogContainer.SetActive(false);
+                stop.SetActive(false);
+                if (index>5) {
+                    vacuum.SetActive(false);
+                }
+                if (index>7) {
+                    sponge.SetActive(false);
+                }
+                message.text = messagePool[index];
             }
             index++;
         } else {
