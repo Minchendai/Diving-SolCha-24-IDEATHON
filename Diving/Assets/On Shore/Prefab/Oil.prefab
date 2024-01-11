@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6287599061497021256}
   - component: {fileID: 390348415027487386}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Oil
-  m_TagString: Untagged
+  m_TagString: Oil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e1860f8d23b0e49a7f1174cedbd1c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isShrinking: 0
   spreadSpeed: 0.0005
   shrinkSpeed: 0.0005
   largestScale: 2
@@ -63,7 +62,8 @@ GameObject:
   - component: {fileID: 2170522901444879148}
   - component: {fileID: 6138865633040450377}
   - component: {fileID: 4808348401305998749}
-  m_Layer: 0
+  - component: {fileID: 2896060693669040715}
+  m_Layer: 8
   m_Name: Oil Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,3 +182,22 @@ MonoBehaviour:
   GMult: 1
   BMult: 1
   AMult: 1
+--- !u!114 &2896060693669040715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051679727314997197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083b8ccce83a51048b5431d7b848c99b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 94924f1273a3d8c42ac28af9cc2cb811, type: 2}
+  - {fileID: 2100000, guid: 14d8aadafcab57846a2ef9dc70c218e4, type: 2}
+  - {fileID: 2100000, guid: 47130058e22a9644793c4d9673dfd187, type: 2}
+  - {fileID: 2100000, guid: 46b32a0144a151b4bad85192443139ee, type: 2}
+  speed: 400
+  oil: {fileID: 2051679727314997197}

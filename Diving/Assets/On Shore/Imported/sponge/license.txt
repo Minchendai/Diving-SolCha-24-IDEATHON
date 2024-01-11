@@ -1,0 +1,11 @@
+Model Information:
+* title:	sponge
+* source:	https://sketchfab.com/3d-models/sponge-22ae98469b6948da9dcbb53b80abb550
+* author:	Mylom (https://sketchfab.com/Mylom)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "sponge" (https://sketchfab.com/3d-models/sponge-22ae98469b6948da9dcbb53b80abb550) by Mylom (https://sketchfab.com/Mylom) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
