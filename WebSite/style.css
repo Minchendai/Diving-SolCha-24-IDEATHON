@@ -11,14 +11,6 @@ body {
   position: relative;
 }
 
- .scroll-down {
-  position: absolute;
-  width: 404px;
-  height: 87px;
-  top: 223px;
-  left: 520px;
-}
-
  .div {
   position: relative;
   margin: 100px;
@@ -47,14 +39,6 @@ body {
   line-height: normal;
 }
 
- .button-oil-pollution {
-  position: absolute;
-  width: 634px;
-  height: 229px;
-  top: 1097px;
-  left: 431px;
-}
-
  .div-wrapper {
   position: relative;
   width: 632px;
@@ -77,14 +61,6 @@ body {
   line-height: normal;
 }
 
- .button-ocean {
-  position: absolute;
-  width: 634px;
-  height: 210px;
-  top: 1391px;
-  left: 431px;
-}
-
  .overlap-2 {
   position: relative;
   width: 632px;
@@ -105,14 +81,6 @@ body {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
-}
-
- .button-fish-stocks {
-  position: absolute;
-  width: 634px;
-  height: 229px;
-  top: 1666px;
-  left: 431px;
 }
 
  .text-wrapper-5 {
