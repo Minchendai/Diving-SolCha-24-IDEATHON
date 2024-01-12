@@ -3,34 +3,12 @@ body {
   background-repeat: repeat-y;
   background-size: cover;
   background-image: url("img/Background.png");
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   gap: 10px;
   position: relative;
-}
-
-.container {
-  position: relative;
-  margin: auto;
-  width: 80%;
-}
-
- .overlap {
-  position: relative;
-  width: 924px;
-  height: 1308px;
-  top: 689px;
-  left: 0;
-}
-
- .img {
-  width: 312px;
-  height: 404px;
-  top: 0;
-  left: 0;
-  mix-blend-mode: exclusion;
-  position: absolute;
-  object-fit: cover;
 }
 
  .scroll-down {
@@ -43,15 +21,11 @@ body {
 
  .div {
   position: relative;
-  width: 400px;
-  height: 87px;
+  margin: 100px;
 }
 
  .text-wrapper {
-  position: absolute;
-  width: 400px;
-  top: 0;
-  left: 0;
+  position: relative;
   font-family: "Chelsea Market", Helvetica;
   font-weight: 400;
   color: #80bfb9;
@@ -62,9 +36,7 @@ body {
 }
 
  .text-wrapper-2 {
-  position: absolute;
-  top: 46px;
-  left: 182px;
+  position: relative;
   transform: rotate(90deg);
   font-family: "Chelsea Market", Helvetica;
   font-weight: 400;
@@ -92,7 +64,7 @@ body {
 }
 
  .text-wrapper-3 {
-  position: absolute;
+  position: relative;
   width: 447px;
   top: 74px;
   left: 94px;
@@ -158,11 +130,8 @@ body {
 }
 
  .title {
-  position: absolute;
-  width: 645px;
-  height: 228px;
-  top: 370px;
-  left: 374px;
+  position: relative;
+  margin-top: 1000px;
 }
 
  .about {
