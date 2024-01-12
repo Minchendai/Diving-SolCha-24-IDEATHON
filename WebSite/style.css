@@ -1,0 +1,301 @@
+.home-page {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.home-page .background {
+  position: relative;
+  width: 1440px;
+  height: 1997px;
+  background-color: #1d5273;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.home-page .spongebob {
+  width: 316px;
+  height: 300px;
+  top: 480px;
+  left: 1085px;
+  mix-blend-mode: luminosity;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .overlap {
+  position: absolute;
+  width: 924px;
+  height: 1308px;
+  top: 689px;
+  left: 0;
+}
+
+.home-page .overlap-group {
+  position: absolute;
+  width: 620px;
+  height: 1308px;
+  top: 0;
+  left: 0;
+}
+
+.home-page .spongebob-flower {
+  width: 454px;
+  height: 399px;
+  top: 909px;
+  left: 0;
+  mix-blend-mode: luminosity;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .img {
+  width: 312px;
+  height: 404px;
+  top: 0;
+  left: 0;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .spongebob-2 {
+  width: 354px;
+  height: 363px;
+  top: 598px;
+  left: 43px;
+  mix-blend-mode: soft-light;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .spongebob-3 {
+  width: 312px;
+  height: 316px;
+  top: 380px;
+  left: 308px;
+  mix-blend-mode: saturation;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .scroll-down {
+  position: absolute;
+  width: 404px;
+  height: 87px;
+  top: 223px;
+  left: 520px;
+}
+
+.home-page .div {
+  position: relative;
+  width: 400px;
+  height: 87px;
+}
+
+.home-page .text-wrapper {
+  position: absolute;
+  width: 400px;
+  top: 0;
+  left: 0;
+  font-family: "Chelsea Market", Helvetica;
+  font-weight: 400;
+  color: #80bfb9;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .text-wrapper-2 {
+  position: absolute;
+  top: 46px;
+  left: 182px;
+  transform: rotate(90deg);
+  font-family: "Chelsea Market", Helvetica;
+  font-weight: 400;
+  color: #80bfb9;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .spongebob-4 {
+  width: 299px;
+  height: 301px;
+  top: 0;
+  left: 0;
+  mix-blend-mode: soft-light;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .spongebob-5 {
+  width: 203px;
+  height: 178px;
+  top: 511px;
+  left: 198px;
+  mix-blend-mode: darken;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .spongebob-6 {
+  width: 288px;
+  height: 337px;
+  top: 0;
+  left: 1152px;
+  mix-blend-mode: darken;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .spongebob-7 {
+  width: 392px;
+  height: 405px;
+  top: 1592px;
+  left: 1048px;
+  mix-blend-mode: darken;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .spongebob-8 {
+  width: 302px;
+  height: 294px;
+  top: 154px;
+  left: 813px;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .spongebob-9 {
+  width: 392px;
+  height: 520px;
+  top: 802px;
+  left: 1048px;
+  mix-blend-mode: exclusion;
+  position: absolute;
+  object-fit: cover;
+}
+
+.home-page .button-oil-pollution {
+  position: absolute;
+  width: 634px;
+  height: 229px;
+  top: 1097px;
+  left: 431px;
+}
+
+.home-page .div-wrapper {
+  position: relative;
+  width: 632px;
+  height: 229px;
+  background-color: #80bfb9;
+  border-radius: 50px;
+}
+
+.home-page .text-wrapper-3 {
+  position: absolute;
+  width: 447px;
+  top: 74px;
+  left: 94px;
+  font-family: "Chelsea Market", Helvetica;
+  font-weight: 400;
+  color: #1d5273;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .button-ocean {
+  position: absolute;
+  width: 634px;
+  height: 210px;
+  top: 1391px;
+  left: 431px;
+}
+
+.home-page .overlap-2 {
+  position: relative;
+  width: 632px;
+  height: 210px;
+  background-color: #80bfb9;
+  border-radius: 50px;
+}
+
+.home-page .text-wrapper-4 {
+  position: absolute;
+  width: 519px;
+  top: 24px;
+  left: 46px;
+  font-family: "Chelsea Market", Helvetica;
+  font-weight: 400;
+  color: #1d5273;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .button-fish-stocks {
+  position: absolute;
+  width: 634px;
+  height: 229px;
+  top: 1666px;
+  left: 431px;
+}
+
+.home-page .text-wrapper-5 {
+  position: absolute;
+  width: 504px;
+  top: 69px;
+  left: 64px;
+  font-family: "Chelsea Market", Helvetica;
+  font-weight: 400;
+  color: #1d5273;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-page .title {
+  position: absolute;
+  width: 645px;
+  height: 228px;
+  top: 370px;
+  left: 374px;
+}
+
+.home-page .about {
+  position: fixed;
+  width: 101px;
+  height: 99px;
+  top: 898px;
+  left: 1309px;
+}
+
+.home-page .overlap-3 {
+  position: relative;
+  width: 99px;
+  height: 99px;
+  background-color: #80bfb9;
+  border-radius: 49.5px;
+}
+
+.home-page .text-wrapper-6 {
+  position: absolute;
+  width: 18px;
+  top: 10px;
+  left: 41px;
+  font-family: "Chelsea Market", Helvetica;
+  font-weight: 400;
+  color: #cff6f2;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
