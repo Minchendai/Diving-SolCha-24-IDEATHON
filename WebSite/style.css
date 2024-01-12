@@ -167,3 +167,15 @@ body {
   letter-spacing: 0;
   line-height: normal;
 }
+.back {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: 5%;
+  left: 5%;
+  cursor:pointer;
+}
+.backPng {
+  width: 100px;
+  height: 100px;
+}
