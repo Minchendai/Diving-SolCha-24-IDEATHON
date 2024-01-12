@@ -8,6 +8,7 @@ public class Win : MonoBehaviour
     public GameObject dialogContainer;
     public GameObject next;
     public GameObject restart;
+    public AudioSource congrats;
     private int level=1;
     private int timer=0;
 
@@ -20,9 +21,11 @@ public class Win : MonoBehaviour
         if (!GameObject.FindWithTag("Oil")&&timer>=200&&!GameObject.Find("Success Screen")) {
             timer=0;
             if (level==1) {
+                congrats.Play();
                 successScreen.SetActive(true);
                 level++;
             } else if (GameObject.Find("Normal Floor")) {
+                congrats.Play();
                 successScreen.SetActive(true);
                 if (level>=4) {
                     next.SetActive(false);
