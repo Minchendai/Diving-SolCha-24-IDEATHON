@@ -11,6 +11,18 @@ body {
   position: relative;
 }
 
+.tbc {
+  position: relative;
+  margin: 20%;
+  font-family: "Chelsea Market", Helvetica;
+  font-weight: 400;
+  color: #80bfb9;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
 .button-text {
   position: absolute;
   font-family: "Chelsea Market", Helvetica;
