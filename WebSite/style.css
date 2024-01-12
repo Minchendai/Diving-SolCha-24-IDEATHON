@@ -2,21 +2,26 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: #1d5273; */
   background-image: url("img/Background.png");
   display: inline-flex;
   align-items: flex-start;
   gap: 10px;
   position: relative;
 }
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 80%;
+}
+
  .overlap {
-  position: absolute;
+  position: relative;
   width: 924px;
   height: 1308px;
   top: 689px;
   left: 0;
 }
-
 
  .img {
   width: 312px;
