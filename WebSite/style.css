@@ -12,7 +12,7 @@ body {
 }
 
 .button-text {
-  position: relative;
+  position: absolute;
   font-family: "Chelsea Market", Helvetica;
   font-weight: 400;
   color: #1d5273;
@@ -20,6 +20,9 @@ body {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
  .button {
