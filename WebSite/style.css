@@ -1,6 +1,6 @@
 body {
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   background-image: url("img/Background.png");
   display: inline-flex;
